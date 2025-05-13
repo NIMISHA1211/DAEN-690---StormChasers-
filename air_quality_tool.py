@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 DB_PATH = "air_quality_index.db"
 TABLE_NAME = "air_quality"
 
-# Dynamically extract allowed columns
+# Dynamically extract allowed all columns
 ALLOWED_COLUMNS = extract_allowed_columns(DB_PATH, TABLE_NAME)
 
 # Synonyms for natural queries
